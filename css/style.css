@@ -1,0 +1,122 @@
+
+*{
+	
+	font-family: 'Abel', sans-serif;
+}
+
+body{
+	background: #EDEAEA;
+	width: 100%;
+}
+
+#pageheader{
+	background: url("../images/large-screen-banner.png") no-repeat center center/cover;
+	
+}
+
+.overlay{
+	background-color: rgba(0,0,0,0.6);
+	position: relative;
+	padding: 150px 0;
+	
+}
+
+#menus{
+	width: 90%;
+	margin:auto;
+	margin-top: 50px;
+}
+
+
+#menus .row{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#Coments .row{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.image-content > img{
+	width:100%;
+	height: auto;
+	display: block;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.content{
+	background: #fff;
+	padding: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.content > h2{
+	font-size: 24px;
+}
+
+.content > h2,
+.content > p{
+	margin-bottom: 10px;
+}
+
+.content >p{
+font-size: 20px;
+}
+
+.btn{
+	border-radius: 4px;
+	padding: 8px;
+}
+.item-btn{
+	background: red;
+	border-color: red;
+	border-style: none;
+	color:#fff;
+	font-size: 18px;
+	padding: 
+
+}
+
+.prize{
+	color: green;
+	font-size: 20px;
+}
+
+.item-price{
+	display: flex;
+	justify-content: space-between;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+
+
+
+.image-content2 > img{
+	width:auto;
+	height: 100px;
+	display: block;
+}
+
+.item-content2{
+	background-color: #fff;
+	padding-top: 150px;
+	
+
+
+}
+
+.top{
+	
+	border-radius: 50%;
+	top:0;
+	
+}
+
+
