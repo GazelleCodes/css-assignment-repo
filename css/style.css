@@ -16,22 +16,42 @@ body{
 
 .overlay{
 	background-color: rgba(0,0,0,0.6);
-	padding: 150px 0;	
+	padding: 250px 0;	
 }
 
 .overlayitems{
 	display:flex;
 	justify-content: space-between;
+
+}
+
+
+
+.logo >img{
+	width: 10%;
+	height: auto;
 	
 }
 
+.logo >img{
+	position: absolute;
+	top:10px;
+	left:50px;
+}
+
+
+.navigationbtn{
+	position: absolute;
+	top:10px;
+	right: 150px;
+}
 #overlaycontent>h1,
 #overlaycontent>p{
 	display: flex;
 	justify-content:center;
 	align-items:center;
 	font-size:24px;
-
+	
 }
 
 
@@ -39,14 +59,19 @@ body{
 	font-size:40px;
 }
 
-.head{
+.navigationbtn >a{
 	display: inline;
 	text-decoration:none;
 	color: #fff;
-	font-size:24px;
+	font-size:20px;
+	padding: 10px;
+	font-weight: bold;
 }
 	
-}
+
+
+
+
 #menus{
 	width: 90%;
 	margin:auto;
@@ -132,6 +157,10 @@ font-size: 20px;
 #coments{
 background: #565252;
 margin-top: 50px;
+width: auto;
+height: 400px;
+
+
 }
 
 
@@ -143,12 +172,10 @@ margin-top: 50px;
 
 .item-content2{
 	background-color: #F2EAEA;
-	width: auto;
-	margin-bottom: 50px;
 	padding: 10px;
 
-
 }
+
 
 .top{
 	
@@ -157,7 +184,7 @@ margin-top: 50px;
 }
 
 
-}
+
 #footer{
 	height: 80px;
 	background-color: #000;
@@ -165,7 +192,8 @@ margin-top: 50px;
 	justify-content: center;
 	align-items: center;
 	font-weight: bold;
-	margin-bottom: 50px;
+
+	
 }
 
 .text-white{
