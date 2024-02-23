@@ -20,7 +20,9 @@ body{
 }
 
 .overlayitems{
-	position: relative;
+	display:flex;
+	justify-content: space-between;
+	
 }
 
 #overlaycontent>h1,
