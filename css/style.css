@@ -4,13 +4,16 @@
 	font-family: 'Abel', sans-serif;
 }
 
+
+@media (max-width:600px) or (min-width: 600px){
+
 body{
 	background: #EDEAEA;
 	width: 100%;
 }
 
 
-@media (max-width:600px) or (min-width: 600px){
+
 
 #pageheader{
 	background: url("../images/large-screen-banner.png") no-repeat center center/cover;
