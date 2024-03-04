@@ -38,12 +38,11 @@ body{
 	    width: 30%;
 	    height: auto;
 	    display: block;
-
 	}
 
 }
 
-@media only screen and (min-width:992px){
+@media only screen and (min-width:600px){
   
   .navigationbtn >a{
 	display: inline-block;
@@ -106,11 +105,15 @@ body{
 
 
 #menus{
-	width: 90%;
 	margin:auto;
 	margin-top: 50px;
 
 }
+
+.row>h2{
+   margin:auto;
+}
+
 
 #overlaycontent>h1,
 #overlaycontent>p{
@@ -127,18 +130,13 @@ body{
 
 
 #menus .row{
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	margin-bottom: 30px;
 	margin-top: 30px;
 }
 
 #coments .row{
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	padding-top: 20px;
+
 	
 
 
@@ -210,6 +208,8 @@ height: auto;
 }
 
 
+
+
 .image-content2 > img{
 	width:auto;
 	height: 150px;
@@ -222,11 +222,10 @@ height: auto;
 .item-content2{
 	background-color: #F2EAEA;
 	padding: 10px;
-	width: 100%;
-	height: auto;
 	margin-bottom: 40px;
 
 }
+
 
 
 .top{
